@@ -1,6 +1,6 @@
 //
 //  main.m
-//  shortcuts
+//  shortcut
 //
 //  Created by Dmitry Rodionov on 21/08/16.
 //  Copyright © 2016 Internals Exposed. All rights reserved.
@@ -10,7 +10,7 @@
 @import InputMethodKit;
 
 #include <objc/runtime.h>
-#import "shortcuts.h"
+#import "shortcut.h"
 
 static const char * const kVersion = "2.0.0";
 
@@ -43,7 +43,7 @@ int main(int argc, const char * argv[]) {
 
 static int usage(void)
 {
-    printf("Command line interface to user's text replacements.\nshortcuts version: %s\n", kVersion);
+    printf("Command line interface to user's text replacements.\nshortcut version: %s\n", kVersion);
     printf("Usage:\n\n"
 
            "\t%s read [--as-plist]\n"
@@ -67,7 +67,7 @@ static int usage(void)
            "\t\tDelete the specified shortcut (if any)."
 
            "\n\nMade by Internals Exposed @ 2016.\n"
-           "Issue tracker: https://github.com/rodionovd/shortcuts/issues\n",
+           "Issue tracker: https://github.com/rodionovd/shortcut/issues\n",
            getprogname(), getprogname(), getprogname(), getprogname(), getprogname());
     return EXIT_FAILURE;
 }

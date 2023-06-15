@@ -1,6 +1,6 @@
 //
 //  NSArray+HigherOrder.h
-//  shortcuts
+//  shortcut
 //
 //  Created by Dmitry Rodionov on 21/08/16.
 //  Copyright © 2016 Internals Exposed. All rights reserved.

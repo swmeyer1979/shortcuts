@@ -52,7 +52,7 @@ typedef void (^_KSTextReplacementTranscationHandler)(NSError *error);
 
 @interface _KSTextReplacementClientStore : NSObject <_KSTextReplacementStoreProtocol, _KSTextReplacementCancellation>
 
-- (id)phraseShortcuts;
+- (id)phraseshortcut;
 - (void)performTransaction:(id)arg1 completionHandler:(_KSTextReplacementTranscationHandler)arg2;
 - (NSArray <_KSTextReplacementEntry *> *)textReplacementEntries;
 - (void)modifyEntry:(id)arg1 toEntry:(id)arg2 withCompletionHandler:(_KSTextReplacementTranscationHandler)arg3;
