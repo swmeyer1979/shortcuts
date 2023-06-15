@@ -1,3 +1,7 @@
+## NOTE: Modified to deconflict with macOS shortcuts in /usr/bin.
+
+I uploaded a ZIP file called [shortcut-2.0.0.zip](https://github.com/swmeyer1979/shortcuts/blob/master/shortcut-2.0.0.zip) in which I replaced all _shortcuts_ to _shortcut_ and recompiled. Just download [shortcut-2.0.0.zip](https://github.com/swmeyer1979/shortcuts/blob/master/shortcut-2.0.0.zip) and put it into _/usr/local/bin_ or any other suitable location.
+
 # shortcuts - a command line interface to your text replacements on macOS
 
 This simple utility allows you to view, update, create and delete text substitutions used in Cocoa-based applications.
